@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>📦 TP Final: Gestión de Artículos de Catálogo</h1>
+    <h1>📦 TP Final: Gestor de Árticulos</h1>
     <h2>📝 Descripción del Proyecto</h2>
     <p>
         Este proyecto es una aplicación de escritorio desarrollada para la gestión de artículos en el catálogo de un comercio. 

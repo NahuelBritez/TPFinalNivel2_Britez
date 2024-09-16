@@ -21,9 +21,6 @@
         <li><strong>Eliminar Artículos:</strong> Permite eliminar artículos del catálogo.</li>
         <li><strong>Ver Detalle de Artículo:</strong> Visualiza la información completa de un artículo seleccionado.</li>
     </ul>
-    <p>
-        La aplicación está conectada a una base de datos local preexistente, y utiliza <strong>ADO.NET</strong> para interactuar con <strong>SQLServer</strong>.
-    </p>
     <h2>🏗️ Arquitectura</h2>
     <p>
         El proyecto sigue una <strong>arquitectura en capas</strong>, distribuyendo las responsabilidades entre las siguientes capas:
@@ -48,11 +45,22 @@
         <li><strong>Visual Studio 2022 o superior.</strong></li>
         <li><strong>SQL Server</strong> instalado y configurado.</li>
     </ul>
-    <h3>🔗 Nota sobre la Base de Datos</h3>
+    <h3>📂 Incluir el Archivo SQL</h3>
     <p>
-        La base de datos utilizada en este proyecto es local y no se incluye el script de generación de la misma. 
-        La aplicación ha sido desarrollada para conectarse a una base de datos preexistente, por lo que se deberá 
-        utilizar una base de datos local configurada con la misma estructura para que la aplicación funcione correctamente.
+        En este repositorio se incluye el archivo <code>catalogo_db_setup.sql</code>, que contiene el script para generar la base de datos <strong>CATALOGO_DB</strong>.
+        Debes ejecutar este archivo antes de utilizar la aplicación para que las tablas y los datos necesarios estén disponibles en tu instancia local de SQL Server.
+    </p>
+    <h3>🔧 Configuración de la Base de Datos</h3>
+    <ol>
+        <li>Descarga o clona este repositorio.</li>
+        <li>Localiza el archivo <code>catalogo_db_setup.sql</code> en la carpeta <strong>scripts/</strong> del proyecto.</li>
+        <li>Abre SQL Server Management Studio o cualquier otra herramienta de administración de SQL Server.</li>
+        <li>Conéctate a tu instancia local de SQL Server.</li>
+        <li>Ejecuta el script <code>catalogo_db_setup.sql</code> para crear la base de datos y las tablas.</li>
+    </ol>
+    <h3>🔗 Nota sobre la Cadena de Conexión</h3>
+    <p>
+        Una vez creada la base de datos, asegúrate de configurar la cadena de conexión correctamente en el archivo <strong>app.config</strong> o <strong>web.config</strong> (según el proyecto) para que la aplicación se conecte a tu instancia local de SQL Server.
     </p>
     <h2>🚀 Instrucciones de Uso</h2>
     <ol>

@@ -60,7 +60,7 @@
     </ol>
     <h3>🔗 Nota sobre la Cadena de Conexión</h3>
     <p>
-        Una vez creada la base de datos, asegúrate de configurar la cadena de conexión correctamente en el archivo <strong>app.config</strong> o <strong>web.config</strong> (según el proyecto) para que la aplicación se conecte a tu instancia local de SQL Server.
+        Una vez creada la base de datos, asegúrate de configurar la cadena de conexión correctamente en el archivo <strong>ArticuloDatos</strong> para que la aplicación se conecte a tu instancia local de SQL Server.
     </p>
     <h2>🚀 Instrucciones de Uso</h2>
     <ol>
